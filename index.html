@@ -6,10 +6,11 @@
 -->
 <html>
 	<head>
-		<title>Costura Tonona</title>
+		<title>costura tonona</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		
 	</head>
 	<body class="is-preload">
 
@@ -17,101 +18,320 @@
 			<header id="header">
 				<div class="inner">
 					<a href="#" class="image avatar"><img src="images/logo.jpeg" alt="" /></a>
-					<h1><strong>Bienvendio a Costuras Tonona</strong></h1><h4>Tienda  de costuras</h4><br />
-						Cosas para bebes 
+					<h1>Bienvendio a Costuras Tonona</h1><h3>tienda  de costuras</h3>
+					<br />
+					<h3>
+						Articulos para bebes 
 						, Accesorios para el Mate, 
 						Organizadores, 
-						Accesorios<br />
+						Accesorios
+					</h3>
+					<ul class="icons">
+						<li><a href="https://wa.link/ewng6x" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
+						<li><a href="https://www.instagram.com/costurastonona?igsh=MW4ya3d1N3RwaHV5NQ==" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						
+					</ul>
+					<ul class="copyright">
+						<h6>Design:<a>Lucas Rojas</a></h6>
+					</ul>
+					<br />			
 					
-				</div>
+					<style>
+						/* Estilos de la barra de navegación */
+						.navbar {
+							overflow: hidden;
+						}
+					
+						.navbar a {
+							float: left;
+							display: block;
+							color: #f2f2f2;
+							text-align: center;
+							padding: 14px 20px;
+							text-decoration: none;
+						}
+					
+						.navbar a:hover {
+							background-color: #000000;
+							color: #c59c81;
+						}
+					
+						/* Estilo para ocultar productos */
+						.hidden {
+							display: none;
+						}
+					</style>
+
+
 			</header>
 
 		<!-- Main -->
 			<div id="main">
-
+				<div class="navbar">
+					<a href="#" onclick="showProducts('all')">Todos los productos</a>
+					<a href="#" onclick="showProducts('contenedor')">Contenedores</a>
+					<a href="#" onclick="showProducts('bolsa')">Bolsas</a>
+					<a href="#" onclick="showProducts('toallitas')">Toallitas y baberos</a>
+					<a href="#" onclick="showProducts('cartuchera')">Cartucheras</a>
+					<a href="#" onclick="showProducts('materos')">Sets materos</a>
+					<a href="#" onclick="showProducts('bolsos')">Bolsos materos</a>
+				</div>
 				
-				<!-- Two -->
+			<!-- Two -->
 					<section id="two">
+					  <section id="articles">
+						
 						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/costura.jpg" class="image fit thumb"><img src="images/fulls/costura.jpg" alt="" /></a>
-								<h3>Nunc enim commodo aliquet</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							
+							<article id="contenedor" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\conte1.jpeg" class="image fit thumb"><img src="images\fulls\conte1.jpeg" alt="" width="300" height="250" /></a>
+								<h3>Contenedor con estampa para bebe</h3>
+								<!----<p>$</p>-->
+								
 							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/costura.jpg" class="image fit thumb"><img src="images/fulls/costura.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+
+							<article id="contenedor"  class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\conte2.jpeg" class="image fit thumb"><img src="images\fulls\conte2.jpeg" alt="" width="300" height="250"/></a>
+								<h3>Contenedor con estampa de animales</h3>
+								<!----<p>$</p>-->
+
 							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/costura.jpg" class="image fit thumb"><img src="images/fulls/costura.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+
+							<article id="contenedor" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\conte3.jpeg" class="image fit thumb"><img src="images\fulls\conte3.jpeg" alt="" width="300" height="250"/></a>
+								<h3>Contenedor de hojas grises</h3>
+								<!----<p>$</p>-->
 							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/costura.jpg" class="image fit thumb"><img src="images/fulls/costura.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+
+							<article id="contenedor" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\conte4.jpeg" class="image fit thumb"><img src="images\fulls\conte4.jpeg" alt="" width="300" height="250"/></a>
+								<h3>Contenedor de estrellas</h3>
+								<!----<p>$</p>-->
 							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/costura.jpg" class="image fit thumb"><img src="images/fulls/costura.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+
+							<article id="bolsa" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\bolsita1.jpeg" class="image fit thumb"><img src="images\fulls\bolsita1.jpeg" alt="" width="300" height="250"/></a>
+								<h3>Bolsa con estampa de animales</h3>
+								<!----<p>$</p>-->
 							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/costura.jpg" class="image fit thumb"><img src="images/fulls/costura.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+
+							<article id="bolsa" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\bolsita2.jpeg" class="image fit thumb"><img src="images\fulls\bolsita2.jpeg" alt="" width="300" height="250"/></a>
+								<h3>Bolsa con estampa para bebe</h3>
+								<!----<p>$</p>-->
 							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/costura.jpg" class="image fit thumb"><img src="images/fulls/costura.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+
+							<article id="bolsa" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\bolsita3.jpeg" class="image fit thumb"><img src="images\fulls\bolsita3.jpeg" alt="" width="300" height="250"/></a>
+								<h3>Bolsa con estampa de estrellas</h3>
+								<!----<p>$</p>-->
 							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/costura.jpg" class="image fit thumb"><img src="images/fulls/costura.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+
+							<article id="toallitas" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\toallita1.jpeg" class="image fit thumb"><img src="images\fulls\toallita1.jpeg" alt="" width="300" height="250"/></a>
+								<h3>Set de toalla y babita gris</h3>
+								<!----<p>$</p>-->
 							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/costura.jpg" class="image fit thumb"><img src="images/fulls/costura.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+
+							<article id="toallitas" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\toallita2.jpeg" class="image fit thumb"><img src="images\fulls\toallita2.jpeg" alt="" width="300" height="250"/></a>
+								<h3>Set de toalla y babita verde</h3>
+								<!----<p>$</p>-->
 							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/costura.jpg" class="image fit thumb"><img src="images/fulls/costura.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+
+							<article id="toallitas" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\toallita3.jpeg" class="image fit thumb"><img src="images\fulls\toallita3.jpeg" alt="" width="300" height="250"/></a>
+								<h3>toalla individual de autitos</h3>
+								<!----<p>$</p>-->
 							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/costura.jpg" class="image fit thumb"><img src="images/fulls/costura.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+
+							<article id="cartuchera" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\cartuchera1.jpeg" class="image fit thumb"><img src="images\fulls\cartuchera1.jpeg" alt="" width="300" height="250"/></a>
+								<h3>Cartuchera de estrellas rosas</h3>
+								<!----<p>$</p>-->
 							</article>
+
+							<article id="cartuchera" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\cartuchera2.jpeg" class="image fit thumb"><img src="images\fulls\cartuchera2.jpeg" alt="" width="300" height="250"/></a>
+								<h3>Cartuchera de estrellas blanca</h3>
+								<!----<p>$</p>-->
+							</article>
+							
+							<article id="cartuchera" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\cartuchera3.jpeg" class="image fit thumb"><img src="images\fulls\cartuchera3.jpeg" alt="" width="300" height="250"/></a>
+								<h3>Cartuchera rayada</h3>
+								<!----<p>$</p>-->
+							</article>
+
+							<article id="cartuchera" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\cartuchera4.jpeg" class="image fit thumb"><img src="images\fulls\cartuchera4.jpeg" alt="" width="300" height="250"/></a>
+								<h3>Cartuchera floreada</h3>
+								<!----<p>$</p>-->
+							</article>
+
+							<article id="cartuchera" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\cartuchera5.jpeg" class="image fit thumb"><img src="images\fulls\cartuchera5.jpeg" alt="" width="300" height="250"/></a>
+								<h3>Cartuchera de huellitas</h3>
+								<!----<p>$</p>-->
+							</article>
+
+							<article id="cartuchera" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\cartuchera6.jpeg" class="image fit thumb"><img src="images\fulls\cartuchera6.jpeg" alt="" width="300" height="250"/></a>
+								<h3>Cartuchera de hojas azul</h3>
+								<!----<p>$</p>-->
+							</article>
+
+							<article id="cartuchera" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\cartuchera7.jpeg" class="image fit thumb"><img src="images\fulls\cartuchera7.jpeg" alt="" width="300" height="250"/></a>
+								<h3>Cartuchera negra</h3>
+								<!----<p>$</p>-->
+							</article>
+
+							<article id="cartuchera" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\cartuchera8.jpeg" class="image fit thumb"><img src="images\fulls\cartuchera8.jpeg" alt="" width="300" height="250"/></a>
+								<h3>Cartuchera de hojas grises</h3>
+								<!----<p>$</p>-->
+							</article>
+
+							<article id="materos" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\set matero1.jpeg" class="image fit thumb"><img src="images\fulls\set matero1.jpeg" alt="" width="300" height="250"/></a>
+								<h3>Set matero negro</h3>
+								<!----<p>$</p>-->
+							</article>
+
+							<article id="materos" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\set matero2.jpeg" class="image fit thumb"><img src="images\fulls\set matero2.jpeg" alt="" width="300" height="250"/></a>
+								<h3>Set matero floreado</h3>
+								<!----<p>$</p>-->
+							</article>
+
+							<article id="materos" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\set matero3.jpeg" class="image fit thumb"><img src="images\fulls\set matero3.jpeg" alt="" width="300" height="250"/></a>
+								<h3>Set matero juvenil</h3>
+								<!----<p>$</p>-->
+							</article>
+
+							<article id="materos" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\set matero4.jpeg" class="image fit thumb"><img src="images\fulls\set matero4.jpeg" alt="" width="300" height="250"/></a>
+								<h3>Set matero de estrellas</h3>
+								<!----<p>$</p>-->
+							</article>
+
+							<article id="materos" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\set matero5.jpeg" class="image fit thumb"><img src="images\fulls\set matero5.jpeg" alt="" width="300" height="250"/></a>
+								<h3>Set matero rosa claro</h3>
+								<!----<p>$</p>-->
+							</article>
+
+							<article id="materos" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\set matero6.jpeg" class="image fit thumb"><img src="images\fulls\set matero6.jpeg" alt="" width="300" height="250"/></a>
+								<h3>Set matero rosa oscuro</h3>
+								<!----<p>$</p>-->
+							</article>
+
+							<article id="materos" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\set matero7.jpeg" class="image fit thumb"><img src="images\fulls\set matero7.jpeg" alt="" width="300" height="250"/></a>
+								<h3>Set matero verde con hojas</h3>
+								<!----<p>$</p>-->
+							</article>
+
+							<article id="materos" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\set matero8.jpeg" class="image fit thumb"><img src="images\fulls\set matero8.jpeg" alt="" width="300" height="250"/></a>
+								<h3>Set matero blanco perlado</h3>
+								<!----<p>$</p>-->
+							</article>
+							
+							<article id="bolsos" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\bolso matero1.jpeg" class="image fit thumb"><img src="images\fulls\bolso matero1.jpeg" alt="" width="300" height="320"/></a>
+								<h3>Bolso matero blanco perlado</h3>
+								<!----<p>$</p>-->
+							</article>
+
+							<article id="bolsos" class="col-6 col-12-xsmall work-item">
+								<a href="images\fulls\bolso matero2.jpeg" class="image fit thumb"><img src="images\fulls\bolso matero2.jpeg" alt="" width="300" height="320"/></a>
+								<h3>Bolso matero plateado</h3>
+								<!----<p>$</p>-->
+							</article>
+
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/costura.jpg" class="image fit thumb"><img src="images/fulls/costura.jpg" alt="" /></a>
+								<a href="images/fulls/costura.jpg" class="image fit thumb"><img src="images/fulls/costura.jpg" alt="" width="300" height="250"/></a>
 								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<!----<p>$</p>-->
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/costura.jpg" class="image fit thumb"><img src="images/fulls/costura.jpg" alt="" width="300" height="250"/></a>
+								<h3>Risus ornare lacinia</h3>
+								<!----<p>$</p>-->
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/costura.jpg" class="image fit thumb"><img src="images/fulls/costura.jpg" alt="" width="300" height="250"/></a>
+								<h3>Risus ornare lacinia</h3>
+								<!----<p>$</p>-->
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/costura.jpg" class="image fit thumb"><img src="images/fulls/costura.jpg" alt="" width="300" height="250"/></a>
+								<h3>Risus ornare lacinia</h3>
+								<!----<p>$</p>-->
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/costura.jpg" class="image fit thumb"><img src="images/fulls/costura.jpg" alt="" width="300" height="250"/></a>
+								<h3>Risus ornare lacinia</h3>
+								<!----<p>$</p>-->
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/costura.jpg" class="image fit thumb"><img src="images/fulls/costura.jpg" alt="" width="300" height="250"/></a>
+								<h3>Risus ornare lacinia</h3>
+								<!----<p>$</p>-->
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/costura.jpg" class="image fit thumb"><img src="images/fulls/costura.jpg" alt="" width="300" height="250"/></a>
+								<h3>Risus ornare lacinia</h3>
+								<!----<p>$</p>-->
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/costura.jpg" class="image fit thumb"><img src="images/fulls/costura.jpg" alt="" width="300" height="250"/></a>
+								<h3>Risus ornare lacinia</h3>
+								<!----<p>$</p>-->
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/costura.jpg" class="image fit thumb"><img src="images/fulls/costura.jpg" alt="" width="300" height="250"/></a>
+								<h3>Risus ornare lacinia</h3>
+								<!----<p>$</p>-->
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/costura.jpg" class="image fit thumb"><img src="images/fulls/costura.jpg" alt="" width="300" height="250"/></a>
+								<h3>Risus ornare lacinia</h3>
+								<!----<p>$</p>-->
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/costura.jpg" class="image fit thumb"><img src="images/fulls/costura.jpg" alt="" width="300" height="250"/></a>
+								<h3>Risus ornare lacinia</h3>
+								<!----<p>$</p>-->
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/costura.jpg" class="image fit thumb"><img src="images/fulls/costura.jpg" alt="" width="300" height="250"/></a>
+								<h3>Risus ornare lacinia</h3>
+								<!----<p>$</p>-->
 							</article>
 							
 						</div>
+					 </section>
 					</section>
 			</div>
 
 		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="#" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						
-					</ul>
-					<ul class="copyright">
-						</li><li>Design: <a>Lucas Rojas</a></li>
-					</ul>
-				</div>
-			</footer>
-
+			
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
@@ -119,6 +339,20 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				function showProducts(id) {
+					var products = document.getElementsByTagName('article');
+					for (var i = 0; i < products.length; i++) {
+						if (id === 'all') {
+							products[i].style.display = 'block';
+						} else if (products[i].id === id) {
+							products[i].style.display = 'block';
+						} else {
+							products[i].style.display = 'none';
+						}
+					}
+				}
+				</script>
 
 	</body>
 </html>
