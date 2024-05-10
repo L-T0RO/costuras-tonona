@@ -3174,6 +3174,6 @@ input, select, textarea {
 		height: auto; /* Permitimos que la altura se ajuste automáticamente */
 		margin-right: 10px;
 		top: -20px; /* Ajustamos la posición vertical */
-		left: 0px;
+		left: 0++px;
 	}
 	
